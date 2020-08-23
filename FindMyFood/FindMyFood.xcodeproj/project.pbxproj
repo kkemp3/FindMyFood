@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		70AAF38824F2E3B00033A540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAF38724F2E3B00033A540 /* AppDelegate.swift */; };
 		70AAF38A24F2E3B00033A540 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAF38924F2E3B00033A540 /* SceneDelegate.swift */; };
-		70AAF38C24F2E3B00033A540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAF38B24F2E3B00033A540 /* ViewController.swift */; };
+		70AAF38C24F2E3B00033A540 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAF38B24F2E3B00033A540 /* RestaurantViewController.swift */; };
 		70AAF38F24F2E3B00033A540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AAF38D24F2E3B00033A540 /* Main.storyboard */; };
 		70AAF39224F2E3B00033A540 /* FindMyFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70AAF39024F2E3B00033A540 /* FindMyFood.xcdatamodeld */; };
 		70AAF39424F2E3B30033A540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AAF39324F2E3B30033A540 /* Assets.xcassets */; };
 		70AAF39724F2E3B30033A540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AAF39524F2E3B30033A540 /* LaunchScreen.storyboard */; };
 		70AAF3A224F2E3B30033A540 /* FindMyFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAF3A124F2E3B30033A540 /* FindMyFoodTests.swift */; };
+		70AAF3AE24F2E4E20033A540 /* RestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AAF3AC24F2E4E20033A540 /* RestaurantCollectionViewCell.swift */; };
+		70AAF3AF24F2E4E20033A540 /* RestaurantCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70AAF3AD24F2E4E20033A540 /* RestaurantCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,7 @@
 		70AAF38424F2E3B00033A540 /* FindMyFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AAF38724F2E3B00033A540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70AAF38924F2E3B00033A540 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70AAF38B24F2E3B00033A540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70AAF38B24F2E3B00033A540 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		70AAF38E24F2E3B00033A540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70AAF39124F2E3B00033A540 /* FindMyFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMyFood.xcdatamodel; sourceTree = "<group>"; };
 		70AAF39324F2E3B30033A540 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		70AAF39D24F2E3B30033A540 /* FindMyFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AAF3A124F2E3B30033A540 /* FindMyFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFoodTests.swift; sourceTree = "<group>"; };
 		70AAF3A324F2E3B30033A540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AAF3AC24F2E4E20033A540 /* RestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
+		70AAF3AD24F2E4E20033A540 /* RestaurantCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +87,14 @@
 			children = (
 				70AAF38724F2E3B00033A540 /* AppDelegate.swift */,
 				70AAF38924F2E3B00033A540 /* SceneDelegate.swift */,
-				70AAF38B24F2E3B00033A540 /* ViewController.swift */,
+				70AAF38B24F2E3B00033A540 /* RestaurantViewController.swift */,
 				70AAF38D24F2E3B00033A540 /* Main.storyboard */,
 				70AAF39324F2E3B30033A540 /* Assets.xcassets */,
 				70AAF39524F2E3B30033A540 /* LaunchScreen.storyboard */,
 				70AAF39824F2E3B30033A540 /* Info.plist */,
 				70AAF39024F2E3B00033A540 /* FindMyFood.xcdatamodeld */,
+				70AAF3AC24F2E4E20033A540 /* RestaurantCollectionViewCell.swift */,
+				70AAF3AD24F2E4E20033A540 /* RestaurantCollectionViewCell.xib */,
 			);
 			path = FindMyFood;
 			sourceTree = "<group>";
@@ -185,6 +191,7 @@
 			files = (
 				70AAF39724F2E3B30033A540 /* LaunchScreen.storyboard in Resources */,
 				70AAF39424F2E3B30033A540 /* Assets.xcassets in Resources */,
+				70AAF3AF24F2E4E20033A540 /* RestaurantCollectionViewCell.xib in Resources */,
 				70AAF38F24F2E3B00033A540 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70AAF38C24F2E3B00033A540 /* ViewController.swift in Sources */,
+				70AAF38C24F2E3B00033A540 /* RestaurantViewController.swift in Sources */,
+				70AAF3AE24F2E4E20033A540 /* RestaurantCollectionViewCell.swift in Sources */,
 				70AAF38824F2E3B00033A540 /* AppDelegate.swift in Sources */,
 				70AAF39224F2E3B00033A540 /* FindMyFood.xcdatamodeld in Sources */,
 				70AAF38A24F2E3B00033A540 /* SceneDelegate.swift in Sources */,
